@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="512" height="512">
+  <rect width="108" height="108" fill="#2ABD98"/>
+  <g transform="translate(54 54) scale(1.15) translate(-54 -54)">
+  <!-- scan frame -->
+  <path d="M33,43v-6a4,4 0 0 1 4,-4h6 M65,33h6a4,4 0 0 1 4,4v6 M75,65v6a4,4 0 0 1 -4,4h-6 M43,75h-6a4,4 0 0 1 -4,-4v-6"
+        fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- page with folded corner -->
+  <path d="M44,41a2,2 0 0 1 2,-2h12l8,8v20a2,2 0 0 1 -2,2h-18a2,2 0 0 1 -2,-2z" fill="#FFFFFF"/>
+  <path d="M58,39v6a2,2 0 0 0 2,2h6z" fill="#BDEFE0"/>
+  <path d="M49,54h12 M49,60h8" stroke="#17876A" stroke-width="3" stroke-linecap="round"/>
+</g>
+</svg>

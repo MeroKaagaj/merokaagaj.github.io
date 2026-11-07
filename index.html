@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mero Kaagaj: Easy document scanner</title>
+<meta name="description" content="Scan to PDF, resize photos and signatures for online forms, make invoices, and work with PDF and Office files. Everything stays on your phone.">
+<meta property="og:title" content="Mero Kaagaj: Easy document scanner">
+<meta property="og:description" content="Scan to PDF, resize photos and signatures, make invoices. Works on your phone.">
+<meta property="og:image" content="https://merokaagaj.github.io/img/1-home.jpg">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  :root { --g:#2ABD98; --gd:#17876A; --ink:#1B2B27; --mute:#5B6B67; --bg:#FFFFFF; --soft:#F2FBF8; --line:#DCEFE8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#E7F2EE; --mute:#A3B5AF; --bg:#0F1715; --soft:#16221F; --line:#24332F; --gd:#5FD6B5; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; color:var(--ink); background:var(--bg); }
+  a { color:var(--gd); }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 20px; }
+  header { padding:20px 0; }
+  header .wrap { display:flex; align-items:center; gap:10px; }
+  header img { width:36px; height:36px; border-radius:9px; }
+  header b { font-size:18px; }
+  .hero { background:var(--soft); border-block:1px solid var(--line); }
+  .hero .wrap { display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center; padding-block:56px; }
+  h1 { font-size:clamp(32px,5vw,48px); line-height:1.1; margin:0 0 14px; }
+  .lead { font-size:19px; color:var(--mute); margin:0 0 26px; }
+  .btn { display:inline-block; background:var(--g); color:#fff; text-decoration:none; font-weight:600; padding:13px 22px; border-radius:12px; }
+  .btn:hover { background:#22a584; }
+  .note { font-size:14px; color:var(--mute); margin-top:12px; }
+  .phone { width:100%; max-width:300px; justify-self:center; border-radius:22px; box-shadow:0 18px 40px rgba(0,0,0,.18); }
+  section { padding:56px 0; }
+  h2 { font-size:28px; margin:0 0 24px; }
+  .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .card { border:1px solid var(--line); border-radius:14px; padding:20px; }
+  .card h3 { margin:0 0 6px; font-size:17px; }
+  .card p { margin:0; color:var(--mute); font-size:15px; }
+  .shots { display:flex; gap:16px; overflow-x:auto; padding-bottom:10px; scroll-snap-type:x mandatory; }
+  .shots img { width:220px; flex:none; border-radius:16px; border:1px solid var(--line); scroll-snap-align:start; }
+  .privacy { background:var(--soft); border-block:1px solid var(--line); }
+  .privacy ul { margin:0; padding-left:20px; }
+  footer { padding:28px 0 40px; font-size:14px; color:var(--mute); }
+  footer a { margin-right:16px; }
+  @media (max-width:760px) {
+    .hero .wrap { grid-template-columns:1fr; padding-block:36px; }
+    .phone { max-width:240px; }
+    .grid { grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+<header><div class="wrap"><img src="icon.svg" alt=""><b>Mero Kaagaj</b></div></header>
+
+<div class="hero"><div class="wrap">
+  <div>
+    <h1>Easy document scanner</h1>
+    <p class="lead">Scan papers to PDF, get photos and signatures the exact size online forms ask for, and make invoices, all on your phone.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.merokagaj.app">Get it on Google Play</a>
+    <p class="note">Free · English, नेपाली, हिन्दी · Android 8 and up</p>
+  </div>
+  <img class="phone" src="img/1-home.jpg" alt="Mero Kaagaj home screen">
+</div></div>
+
+<section><div class="wrap">
+  <h2>Everything for your paperwork</h2>
+  <div class="grid">
+    <div class="card"><h3>Scan to PDF</h3><p>Snap pages, drag the corners and get a straight, clean PDF. Enhance, grayscale or black &amp; white.</p></div>
+    <div class="card"><h3>Photos &amp; signatures for forms</h3><p>Set the width, height and max KB, or pick a preset. Clean white background, with a clear tick that it fits.</p></div>
+    <div class="card"><h3>Invoice maker</h3><p>Add items, tax and discount in any currency, then share a neat PDF invoice on WhatsApp or email.</p></div>
+    <div class="card"><h3>PDF tools</h3><p>Images to PDF, PDF to images, compress, merge and password-protect.</p></div>
+    <div class="card"><h3>Word, Excel, PowerPoint</h3><p>Open and edit Office files, with formulas in spreadsheets. Your original file is never changed.</p></div>
+    <div class="card"><h3>QR &amp; barcode scanner</h3><p>Scan links, Wi-Fi codes, phone numbers and product barcodes. Nothing opens until you tap.</p></div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2>Screenshots</h2>
+  <div class="shots">
+    <img src="img/2-scan.jpg" alt="Scanning a document" loading="lazy">
+    <img src="img/3-signature.jpg" alt="Signature resized for a form" loading="lazy">
+    <img src="img/4-invoice.jpg" alt="Invoice maker" loading="lazy">
+    <img src="img/5-invoice-pdf.jpg" alt="Invoice PDF" loading="lazy">
+    <img src="img/6-tools.jpg" alt="All tools" loading="lazy">
+    <img src="img/7-documents.jpg" alt="Your documents" loading="lazy">
+  </div>
+</div></section>
+
+<section class="privacy"><div class="wrap">
+  <h2>Private by design</h2>
+  <ul>
+    <li>Your documents, photos and invoices are processed on your phone and never uploaded.</li>
+    <li>No account, no sign-in.</li>
+    <li>Works offline. Internet is only used for ads and to update form presets.</li>
+  </ul>
+</div></section>
+
+<footer><div class="wrap">
+  <a href="presets/privacy-policy.html">Privacy policy</a>
+  <a href="https://play.google.com/store/apps/details?id=com.merokagaj.app">Google Play</a>
+  <p>© 2026 Mero Kaagaj. Not affiliated with any government. Form presets are for convenience; always check the official notice.</p>
+</div></footer>
+</body>
+</html>
